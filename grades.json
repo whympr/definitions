@@ -1,0 +1,914 @@
+{
+    "global": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "The global rating first evaluates the maximum difficulties encountered and the continuity of difficulties. It also takes elevation and duration into account.Scale goes from F (easy) to ED (extremely difficult). The last grade is open: ED- or ED1, ED or ED2, ED+ or ED3, then ED4, ED5, ED6..."
+            },
+            {
+                "rating": "F",
+                "description": "Easy: A straight forward route, possibly including a glacier approach with simple scrambling. Snow or ice slopes will be at angles of less than 35° allowing the climber to walk up them."
+            },
+            {
+                "rating": "PD",
+                "description": "Somewhat difficult: Routes harder than grade F with more complex glacier routes, harder scrambling and objective dangers. Routes may also be longer and at altitude. Snow and ice slopes with angles of up 35 - 45° may be encountered."
+            },
+            {
+                "rating": "AD",
+                "description": "Fairly difficult: More significant slopes of snow and ice with angles of up to 40 - 55°. Rock climbing up to UIAA Grade III may also be encountered but unlikely to be sustained."
+            },
+            {
+                "rating": "D",
+                "description": "Difficult: A more serious undertaking with possibility of rock climbing at around UIAA Grade IV or V and snow and ice slopes at angles of up to 50 - 70°."
+            },
+            {
+                "rating": "TD",
+                "description": "Very difficult: Significant and sustained snow and ice slopes at angles of up to 65 - 80° are likely to be encountered. Hard rock climbing a possibility at UIAA Grades V or VI with some aid routes also a possibility. Routes at this grade are a serious undertaking with high levels of objective danger."
+            },
+            {
+                "rating": "ED",
+                "description": "Extremely difficult: Extremely hard routes with vertical ice slopes likely and rock climbing at UIAA Grades VI to VIII. Aid pitches are a possibility with exceptional objective danger."
+            },
+            {
+                "rating": "ED4",
+                "description": "Climbs harder than ED+ and other abominalities: Self-explanatory!"
+            }
+        ],
+        "fr": [
+	        {
+                "rating": "Description",
+                "description": "La cotation globale alpinisme estime d'abord les difficultés maximales rencontrées et la continuité des difficultés. Elle tient également compte de l'altitude et de la durée d'une course. L'échelle va de F (facile) à ED (extrêmement difficile). Le dernier degré est ouvert : ED- ou ED1, ED ou ED2, ED+ ou ED3, puis ED4, ED5, ED6, ED7..."
+            },
+            {
+                "rating": "F",
+                "description": "Dans une course facile, l’alpiniste marche avec aisance. L’itinéraire est évident, par exemple la remontée d’un glacier peu pentu et peu crevassé suivie d’un éboulis ou d’une courte arête de blocs facile (difficultés en rocher  3). En général, l’usage de la corde ne s’impose que pour la sécurité sur glacier."
+            },
+            {
+                "rating": "PD",
+                "description": "Une course peu difficile est un itinéraire plus difficile qu’un itinéraire F, avec par exemple un glacier plus complexe à négocier (quelques crevasses) ou de l’escalade un peu plus difficile (dès le 3 en rocher mais sans passages de 4 qui ne soient pas facilement contournables), mais clairement disposée et facile à protéger, ou des pentes de neige et glace modérées entre 35 et 45°, dont les passages les plus raides sont courts. Des rappels peuvent être nécessaires à la descente."
+            },
+            {
+                "rating": "AD",
+                "description": "Une course assez difficile est un itinéraire plus difficile qu’un itinéraire PD et qui nécessite souvent de tirer des longueurs à plusieurs reprises. La cordée devra par exemple négocier un glacier crevassé (mais une rimaye de petite taille), des difficultés en rocher dans le 4 ou des pentes de neige et glace plus soutenues, jusqu’à 40-55° (en glace, maximum grade 3+). La sécurité de la cordée requière l’emploi d’une grande variété de techniques."
+            },
+            {
+                "rating": "D",
+                "description": "Une course difficile est plus difficile qu’un itinéraire AD. C’est une entreprise déjà sérieuse où une bonne maîtrise de l’assurage et un bon sens de l’itinéraire sont nécessaires. La cordée devra tirer des longueurs successives pour négocier de longues sections d’escalade (dès qu’il y a des passages obligatoires de 5 ou s’il y a des difficultés soutenues dans le 4-5), des pentes de neige ou de glace raides (50-70°, en glace grade 4+ maximum) ou des glaciers très crevassés aux rimayes importantes. L’obligation de franchir certaines difficultés en artif., en plaçant ses points (A1), fera de l’itinéraire du TD."
+            },
+            {
+                "rating": "TD",
+                "description": "Une course TD est plus difficile qu’un itinéraire D. Les courses TD sont des entreprises très sérieuses avec des difficultés importantes en rocher (dès qu’il y a des passages obligatoires dans le 6 ou de longues sections soutenues dans le 5) ou de longues pentes de neige ou glace raides et soutenues (entre 65 et 80°, en glace grade 5+ maximum) qui nécessitent en général de tirer un grand nombre de longueurs. Les risques objectifs peuvent être importants à ce niveau de difficulté."
+            },
+            {
+                "rating": "ED",
+                "description": "Les courses extrêmement difficiles (ED) sont des itinéraires de grande difficulté, généralement assez engagés, avec de l’escalade soutenue dans le 6 (ou de longues sections d’escalade artificielle délicate) ou de longs passages de glace raide ou verticale."
+            },
+            {
+                "rating": "ED4",
+                "description": "Course plus dure que ED+, parfois défini comme \"abominable\"..."
+            }
+        ]
+    },
+    "rock_free": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "- The rating represents the maximum rock free climb difficulty.\n- It is given based on the french scale, which goes from 2 to 9b."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "- La cotation libre évalue la difficulté maximale de l'escalade libre rocheuse.\n- Elles se donnent sur l'échelle française traditionnellement utilisée, qui va de 2 à 9b."
+            }
+        ]
+    },
+    "rock_required": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "Rating of the required free climb difficulties.\nThe free climb grade required represents the maximum rock free climb difficulty. It corresponds to the rating of the difficulties that remain after all \"cheating\" possibilities using aid points are exhausted.\nIt is given based on the french scale, which goes from 2 to 9b."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "- La cotation libre obligatoire évalue la difficulté maximale obligatoire de l'escalade libre rocheuse. Elle correspond à la cotation de la partie des difficultés qui reste une fois que l'on a épuisé toutes les possibilités de \"triche\" en utilisant un point d'aide.\n- Elles se donnent sur l'échelle française traditionnellement utilisée, qui va de 2 à 9b."
+            }
+        ]
+    },
+    "engagement": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "The commitment grade is a way to evaluate the level of danger alpinists would be exposed to should a problem arise. It takes numerous critera into account and is subjective. The main criteria include distance to civilization (hut, valley, etc...), the possibility and difficulty of retreating, elevation..."
+            },
+            {
+                "rating": "I",
+                "description": "The route is short and covered fast. It is possible to turn back at any moment. Rescuers can rapidly be alerted and can assist in all weather conditions."
+            },
+            {
+                "rating": "II",
+                "description": "The route is not so short (4h or so). It is possible to turn back at any moment. Rescuers can be alerted pretty quickly."
+            },
+            {
+                "rating": "III",
+                "description": "The route takes most of a day and may not be visible from civilisation. Retreat is possible but may be more complicated. In case of bad weather, rescuers may have difficulties in assisting climbers."
+            },
+            {
+                "rating": "IV",
+                "description": "The route takes a full day to complete. The route is long and is generally not visible from civilization. Retreat is tricky and a point of no return may be encountered. In case of bad weather, the route may be hazardous and rescuers might not be able to assist."
+            },
+            {
+                "rating": "V",
+                "description": "The route is very long and requires between 12 and 24h hours of effort. Access is difficult. Retreat is tricky from the start. turning back rapidly becomes impossible. Options for retreat are few and difficult. In case of bad weather or any other problem, alpinists will have to rely on themselves only."
+            },
+            {
+                "rating": "VI",
+                "description": "The route is long and may requires several days. Approach is also long and tricky, the route is totally isolated. Once committed, it is not possible to retreat or turn back. Retreat options are hard climbs in themselves. Climbers must be completely self-sufficient in the level of difficulty."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "La cotation engagement est une façon d'évaluer le degré de danger dans lequel se trouverait l'alpiniste si un problème survenait. Elle prend en compte de très nombreux critères et reste subjective. Parmi les critères principaux, on note l'éloignement de la civilisation (refuge, vallée, etc.), la possibilité et la difficulté d'échappatoires ou de redescente, l'altitude, ..."
+            },
+            {
+                "rating": "I",
+                "description": "L'itinéraire est court et s'effectue rapidement. Il est possible de faire demi-tour à tout moment. Les secours sont vite alertés et peuvent intervenir quel que soit le temps."
+            },
+            {
+                "rating": "II",
+                "description": "L'itinéraire est plus long (4h environ). Il est possible de faire demi-tour à tout moment. Les secours peuvent être avertis assez rapidement."
+            },
+            {
+                "rating": "III",
+                "description": "L'itinéraire s'étale sur plus d'une demi-journée et n'est plus forcement visible depuis la civilisation. La retraite est possible mais commence à être délicate. En cas de mauvais temps, les secours peuvent connaître de grosses difficultés pour intervenir."
+            },
+            {
+                "rating": "IV",
+                "description": "L'itinéraire s'étale sur une journée complète. Le parcours est long et n'est en général pas visible depuis la civilisation. La retraite est délicate, un point de non retour peut être rencontré. En cas de mauvais temps, l'itinéraire peut s'avérer très dangereux et les secours ne peuvent intervenir."
+            },
+            {
+                "rating": "V",
+                "description": "L'itinéraire est très long et demande entre 12 et 24h d'effort. L'accès est difficile. La retraite est délicate dès l'attaque de la voie. Rapidement il n'est plus possible de faire demi-tour. Les échappatoires sont rares et délicats. En cas de mauvais temps ou de problème, les alpinistes doivent compter sur eux-même."
+            },
+            {
+                "rating": "VI",
+                "description": "L'itinéraire est long et peut demander plusieurs jours. L'approche est aussi longue et délicate, l'itinéraire est totalement isolé. Une fois engagé, il n'est plus possible de faire demi-tour et les échappatoires sont des courses en soi. Une totale autonomie de la cordée est requise dans la difficulté."
+            }
+        ]
+    },
+    "mixed": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "The mixed grade represents the maximum difficulty of mixed climbing. It is not the rating of mixed routes (with successive rock and ice or snow sequences), but the rating of mixed climbing sequenceswhere the climber may encouter areas with rock, ice and snow mixed together with gear adapted to ice climbing (crampons and axe).\nThe scale goes from M1 to M12."
+            },
+            {
+                "rating": "M1-3",
+                "description": "Easy climbing. Ice-tools are not necessary."
+            },
+            {
+                "rating": "M4",
+                "description": "The climber will need to use dry-tooling techniques."
+            },
+            {
+                "rating": "M5",
+                "description": "Some vertical sections."
+            },
+            {
+                "rating": "M6",
+                "description": "Vertical with some slightly overhaning sections."
+            },
+            {
+                "rating": "M7",
+                "description": "Overhanging: Difficult dry-tooling but on a short section (10m)."
+            },
+            {
+                "rating": "M8",
+                "description": "M7 Usually, mixed climbing over M6-M7 is not encountered in the mountain and is thus specific to dry-tooling."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "La cotation mixte correspond à la difficulté maximale de l'escalade en terrain mixte. Il s'agit non pas de la cotation d'itinéraires mixtes (comportant successivement des passages rocheux et des passages de neige ou de glace), mais de la cotation de passages mixtes où le grimpeur est amené à évoluer dans des zones de rocher, de neige et de glace mêlés avec un équipement adapté à l'escalade glaciaire (crampons et piolet). L'échelle va de M1 à M12."
+            },
+            {
+                "rating": "M1-3",
+                "description": "Facile, peu pentu. L'utilisation de piolet(s) n'est pas obligatoire."
+            },
+            {
+                "rating": "M4",
+                "description": "Le grimpeur se tient verticalement et peut avoir recours aux techniques du dry-tooling."
+            },
+            {
+                "rating": "M5",
+                "description": "Quelques sections verticales."
+            },
+            {
+                "rating": "M6",
+                "description": "Vertical à légèrement déversant."
+            },
+            {
+                "rating": "M7",
+                "description": "Déversant. Dry-tooling difficile. Moins de 10m d'escalade difficile."
+            },
+            {
+                "rating": "M8",
+                "description": "M7 Généralement, le mixte au delà de M6/M7 n'est pas rencontré en montagne et il est donc spécifique au dry-tooling."
+            }
+        ]
+    },
+    "ice": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "The ice rating represents the maximum difficulty of the ice climbing.\nThe scale goes from 1 to 7+."
+            },
+            {
+                "rating": "1",
+                "description": "Low angle ice, no tools required."
+            },
+            {
+                "rating": "2",
+                "description": "Easy, Consistent 60° angled slope."
+            },
+            {
+                "rating": "3",
+                "description": "Esay leaning climb (75°) with many steep pitches. The ice is abundante and compact."
+            },
+            {
+                "rating": "3+",
+                "description": "Same as grade 3 but offers a stiffer steep pitch (80°)."
+            },
+            {
+                "rating": "4",
+                "description": "Climb with a stiff sequence (85°) of maximum 10m high. The ice is abundant and compact."
+            },
+            {
+                "rating": "4+",
+                "description": "Same as grade 4. The stiff sequence may be almost vertical et lengthier, up to 15m high."
+            },
+            {
+                "rating": "5",
+                "description": "Climb with a vertical section of 20m or so. The ice is more spaced out and take specific shapes: cauliflowers and other ruggednesses. For waterfalls, these are generally cigars."
+            },
+            {
+                "rating": "5+",
+                "description": "Climbing with a vertical section of 30m or so. Climbing becomes pretty technical."
+            },
+            {
+                "rating": "6",
+                "description": "Climb with a vertical section of nearly 40 to 50m. Climb is technical. The ice may become really spaced out."
+            },
+            {
+                "rating": "6+",
+                "description": "Totally vertical climb possibly with short overhangs, e.g. to join two curtains."
+            },
+            {
+                "rating": "7/7+",
+                "description": "Extreme climb. Really stiff, it may be overhanging for several meters. The technique (among which gestural) used by the alpinist is similar to that of a rock climber."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "La cotation glace évalue la difficulté maximale de l'escalade glaciaire.\nL'échelle va de 1 à 7+."
+            },
+            {
+                "rating": "1",
+                "description": "Peu angle, pas d'équipement spécifique nécessaire."
+            },
+            {
+                "rating": "2",
+                "description": "Pente constante à 60°."
+            },
+            {
+                "rating": "3",
+                "description": "Escalade peu inclinée (75°) avec de nombreux ressauts. La glace est bien fournie et compacte."
+            },
+            {
+                "rating": "3+",
+                "description": "Idem que le grade 3 mais présentant un ressaut plus raide (80°)."
+            },
+            {
+                "rating": "4",
+                "description": "Escalade présentant un passage raide (85°) de 10m de haut maximum. La glace est bien fournie et compacte."
+            },
+            {
+                "rating": "4+",
+                "description": "Idem que le grade 4. Le passage raide peut être quasi vertical et plus long, et atteindre 15m de hauteur."
+            },
+            {
+                "rating": "5",
+                "description": "Escalade présentant une section verticale d’environ 20m. La glace commence à s’aérer et à prendre des formes particulières : choux-fleurs ou autres aspérités. En cascade de glace, il s’agit en général de cigares."
+            },
+            {
+                "rating": "5+",
+                "description": "Escalade présentant une section verticale d’environ 30m. L’escalade devient assez technique."
+            },
+            {
+                "rating": "6",
+                "description": "Escalade présentant une section verticale de presque 40 à 50m. L’escalade est technique. La glace peut devenir particulièrement aérée."
+            },
+            {
+                "rating": "6+",
+                "description": "Escalade totalement verticale et pouvant présenter des petits surplombs, par exemple pour passer d’un rideau à un autre."
+            },
+            {
+                "rating": "7/7+",
+                "description": "Escalade extrême. Très raide, elle peut être surplombante sur plusieurs mètres. La technique (gestuelle, notamment) utilisée par l’alpiniste s’apparente alors à celle d’un grimpeur en rocher."
+            }
+        ]
+    },
+    "aid_rating": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "The aid rating corresponds to the maximum difficulty encountered for the rock aid climbing, that is climbing consisting in using aid points for moving on a given sequence.\nThe scale goes from A0 to A6."
+            },
+            {
+                "rating": "A0",
+                "description": "Occasional aid moves often done without aiders (etriers) or climbed on fixed gear; sometimes called \"French free.\""
+            },
+            {
+                "rating": "A0+",
+                "description": "A0 with aiders for the feat."
+            },
+            {
+                "rating": "A1",
+                "description": "Easy aid. No risk of a piece pulling out."
+            },
+            {
+                "rating": "A2",
+                "description": "Moderate aid. Solid gear that’s more difficult to place."
+            },
+            {
+                "rating": "A2+",
+                "description": "A2 with 10-meter fall potential from tenuous placements, but without danger."
+            },
+            {
+                "rating": "A3",
+                "description": "Hard aid. Many tenuous placements in a row; 15-meter fall potential; could require several hours for a single pitch."
+            },
+            {
+                "rating": "A3+",
+                "description": "A3 with dangerous fall potential."
+            },
+            {
+                "rating": "A4",
+                "description": "Serious aid. 30-meter ledge-fall potential from continuously tenuous gear."
+            },
+            {
+                "rating": "A4+",
+                "description": "Even more serious, with even greater fall potential, where each pitch could take many hours to lead."
+            },
+            {
+                "rating": "A5",
+                "description": "Extreme aid. Nothing on the entire pitch can be trusted to hold a fall."
+            },
+            {
+                "rating": "A5+",
+                "description": "A5 with potential fall up to 100m!"
+            },
+            {
+                "rating": "A6",
+                "description": "A5 climbing with belay anchors that won’t hold a fall either."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "La cotation artif correspond à la difficulté maximale de l'escalade artificielle rocheuse, c'est à dire l'escalade consistant à utiliser des points d'aide pour progresser sur un passage donné. L'échelle va de A0 à A6."
+            },
+            {
+                "rating": "A0",
+                "description": "Tous les points sont en place et résistent chacun à la chute du premier de cordée. Le passage se gravit en \"tirant au clou\"."
+            },
+            {
+                "rating": "A0+",
+                "description": "Idem que A0 mais en utilisant une pédale (sangle ou étrier) pour les pieds afin d'atteindre le point suivant."
+            },
+            {
+                "rating": "A1",
+                "description": "Le grimpeur équipe lui-même le passage. La quasi-totalité des points résiste à la chute du premier de cordée. Des passages, d'au plus 2 points successifs peuvent se faire sur des points plus délicats, mais non réalisés sur des points de progression (crochet, plomb, ...). Le matériel exigé est donc composé de pitons variés, de coins de bois, de coinceurs ou de friends."
+            },
+            {
+                "rating": "A2",
+                "description": "Le grimpeur équipe entièrement sa longueur. Des points intermédiaires peuvent sécuriser la voie. La plupart des points résistent à la chute du premier de cordée. Certains passages sont plus techniques : couplage, court passage sur crochet, ... Les sections délicates correspondent à 5 à 10 points successifs. Dans ce dernier cas la longueur est cotée A2+. La chute potentielle oscille entre 10 et 20mètres."
+            },
+            {
+                "rating": "A2+",
+                "description": "La chute potentielle oscille entre 10 et 20mètres."
+            },
+            {
+                "rating": "A3",
+                "description": "Les passages techniques s'allongent et sont entrecoupés de points \"bétons\" (spit ou excellents pitons). Il n'est pas rare d'enchaîner les couplages et les pas sur crochet (bon crochet), voire de placer rurp, bird beak ou autres copper et plombs. La chute potentielle est alors plus importante (autour de 20 à 25mètres). C'est à ce niveau que le grimpeur commence à tester quasi systématiquement ses points avant de mettre son poids dessus."
+            },
+            {
+                "rating": "A3+",
+                "description": "C'est la même chose que dans l'A3, mais avec des sections plus soutenues ou un pas plus aléatoire. La chute peut atteindre les 30mètres."
+            },
+            {
+                "rating": "A4",
+                "description": "De longues sections techniques attendent le grimpeur. Les points de progression (à opposer aux points d'assurage) s'enchaînent pour atteindre 10mètres (10 à 20 mouvements successifs). Des points solides entrecoupent ces sections délicates. Le matériel s'étoffe et laisse place aux plombs, copper, micro-pitons, coins de bois, cales de bois, crochets de toutes sortes, ... Une longueur peut alors demander de nombreuses heures : 4 à 6 heures. La chute potentielle peut atteindre les 50mètres. Mieux vaut être en pleine forme physique et morale !"
+            },
+            {
+                "rating": "A4+",
+                "description": "Comme pour l'A4, avec des sections plus soutenues, plus longues, des pas aléatoires successifs, une lecture plus délicate encore ... On trouve au plus, dans la longueur, un ou deux bons points. Une cotation réservée à l'élite."
+            },
+            {
+                "rating": "A5",
+                "description": "On touche à l’extrême. Les points sont tous des points de progression. La chute est interdite pour qui ne veut pas tenter le diable. Le grimpeur passera une journée entière à grimper sa longueur (notamment en calcaire; en granite, on a pu voir un grimpeur ne passer que 4 / 5h dans la 11ème longueur de Wyoming sheep ranch, au Yosemite, initialement cotée A5+, décotée à A5). "
+            },
+            {
+                "rating": "A5+",
+                "description": "Aucun point, sauf les relais, ne résiste à la chute du premier de cordée. Le vol du siècle, pouvant atteindre, potentiellement, les 100 mètres !"
+            },
+            {
+                "rating": "A6",
+                "description": "Aucun point ne résiste plus au poids du grimpeur, pas même les relais. La cordée n'a alors pas le droit de chuter, sous peine de dévisser !"
+            }
+        ]
+    },
+    "equipment": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "In place protection details the presence and quality of fixed anchors (bolts, pitons, spits) as protection points for rock or ice climbing."
+            },
+            {
+                "rating": "P1",
+                "description": "well bolted\n- Sport climbing bolted with 10 or 12mm expansion bolts, chemical bolts, etc. The route may not be quiped for abseil.\n- Required gear: 12 to 14 clippers, some of them lengthy, 1 to 2 slings to complete equipment in grade II pitches."
+            },
+            {
+                "rating": "P2",
+                "description": "partially bolted\n- Classic route with abundant equipment of good quality, essentially pegs and a few expansion bolts. Nevertheless, it may be necessary to complete or strengthen the equipment in place.\n- Classic or modern bolted route with expansion bolts or pegs only in the difficult unprotectable sections and at belays.\n- Sport route on 8mm expansion bolts or other aging equipment.\n- Required gear: It depends on the route. For a grade D or higher route, at least 8 nuts, 5 cams, 4 slings, long draws."
+            },
+            {
+                "rating": "P3/+",
+                "description": "some bolts\n- Less classic route with little equipment (most protection must be placed and most belays must be built) and/or of very bad quality.\n- Required gear: It depends on the route. For a grade D or higher route, at least a complete set of nuts and friends from Cams ranging from Camalot #0.3 to Camalot #3 - #4, 2 hammers, 6 pegs of various shapes."
+            },
+            {
+                "rating": "P4/+",
+                "description": "not bolted\n- Route with no bolts or a few spurious points.\n- Required gear: It depends on the route. For a grade D or higher route, at least that of the \"some bolts\" category.\nRoute with no bolts or a few spurious points.\nRequired gear: It depends on the route. For a grade D or higher route, at least that of the \"some bolts\" category."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "La cotation équipement se définit avec la quantité de matériel à emporter et le savoir-faire nécessaire pour l'utiliser. Généralement, un relai est plus difficile à réaliser et nécessite plus de matériel que l'ajout d'un point."
+            },
+            {
+                "rating": "P1",
+                "description": "Bien équipé\n- Prendre uniquement des dégaines et une sangle, + éventuellement des sangles pour passer en A0+.\n- Tous les relais et tous les points des longueurs sont en place, et sont soit de bonne qualité (goujons > 10mm, scellement), soit impossibles à renforcer (la différence avec un P1 béton se fait alors par la cotation exposition).\n- Aucun point ne peut être ajouté (même si l'exposition est E4), ou c'est inutile (l'exposition est déjà E2 ou E1)."
+            },
+            {
+                "rating": "P2",
+                "description": "Partiellement équipé\n- Prendre de quoi compléter l'équipement dans les longueurs et renforcer certains relais.\n- Presque tous les relais sont équipés, et sont de bonne qualité. Ou tout ou partie des relais sont à construire, mais ils sont évidents (béquets ou arbres solides).\n- Des points sont en place dans les longueurs, dont certains de bonne qualité, et les crux de la plupart des longueurs sont équipés.\n- L'équipement est à compléter à plusieurs reprises pour réduire l'exposition à E2 autant que possible."
+            },
+            {
+                "rating": "P3/+",
+                "description": "Peu équipé\n- Prendre de quoi protéger la plupart des longueurs en totalité (P3+) ou presque (P3), et de quoi construire de nombreux relais.\n- Certains relais sont équipés et sont de qualité (P3), mais de nombreux relais sont à construire, et peuvent ne pas être évidents.\n- Très peu de points sont en place dans les longueurs."
+            },
+            {
+                "rating": "P4/+",
+                "description": "Pas équipé\n- Prendre de quoi protéger la totalité des longueurs et la totalité des relais.\n- De rares points de mauvaise qualité sont en place dans la voie (P4), ou aucun équipement n'est en place (P4+)."
+            }
+        ]
+    },
+    "objective_risk": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "The Objective Danger scale evaluates the risk of natural snow avalanches, serac avalanches, natural rockfall, natural stalactite fall and fragility of the waterfall ice. The danger coming from human behavior is not in this Objective Danger scale except for the falling down of the waterfall ice triggered by the climber. Approach, tehcnical section and return are evaluate in the risk scale."
+            },
+            {
+                "rating": "X1",
+                "description": "Low risk"
+            },
+            {
+                "rating": "X2",
+                "description": "Moderate risk"
+            },
+            {
+                "rating": "X3",
+                "description": "High risk"
+            },
+            {
+                "rating": "X4",
+                "description": "Very high risk"
+            },
+            {
+                "rating": "X5",
+                "description": "Extremely high risk"
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "Les risques pris en compte sont les avalanches naturelles de neige, les chutes de sérac, les chutes naturelles de pierre, les chutes naturelles de stalactite et la fragilité du support. Les risques liés directement à l'action humaine ne sont pris en compte hormis l’effondrement de la structure provenant de la fragilité du support déclenché par le pratiquant lui même. Les avalanches, chutes de pierre et de stalactites déclenchés par le pratiquant ou une autre cordée ne sont pas pris en compte. La partie technique, l'approche et le retour sont pris en compte dans l'échelle des risques objectifs."
+            },
+            {
+                "rating": "X1",
+                "description": "Risques objectifs faibles."
+            },
+            {
+                "rating": "X2",
+                "description": "Risques objectifs modérés."
+            },
+            {
+                "rating": "X3",
+                "description": "Risques objectifs marqués."
+            },
+            {
+                "rating": "X4",
+                "description": "Risques objectifs sévères."
+            },
+            {
+                "rating": "X5",
+                "description": "Risques objectifs très sévères. La même chose que X4 en pire."
+            }
+        ]
+    },
+    "labande_ski": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "The Labande descent grade is complementary to the global grade. It evaluates the most difficult passage for the ski downhill. It is mostly tied to the slope but also takes exposure into account."
+            },
+            {
+                "rating": "S1",
+                "description": "Easy descent which does not require any particular technical abilities such as forest tracks for example."
+            },
+            {
+                "rating": "S2",
+                "description": "Wide slopes which are easy to manoeuvre, maybe fairly steep (25°)."
+            },
+            {
+                "rating": "S3",
+                "description": "Slopes up to 35° (equivalent to the steepest runs in ski resorts, on hard snow). Requires good skiing abilities in all snow conditions."
+            },
+            {
+                "rating": "S4",
+                "description": "Slopes up to 45°, if exposure is low (between 30 and 40° if it is high or the passage is narrow). Very good skiing abilities are required."
+            },
+            {
+                "rating": "S5",
+                "description": "Slopes between 45 and 50° or more if exposure remains low. From 40° upwards if exposure is high. As well as a perfect downhill skiing technique, control of nerves becomes very important at this level of difficulty."
+            },
+            {
+                "rating": "S6",
+                "description": "Above 50° if exposure is high (which is often the case) or short stretches above 55° with little exposure."
+            },
+            {
+                "rating": "S7",
+                "description": "Stretches at 60° or more, high rock bands to jump or more generally very steep or exposed terrain."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "La cotation Labande ponctuelle ski est complémentaire à la cotation globale. Elle évalue la difficulté du passage le plus délicat de la descente à ski. Elle est essentiellement liée à la pente, mais prend aussi en compte l'exposition."
+            },
+            {
+                "rating": "S1",
+                "description": "Itinéraire facile ne nécessitant pas de technique particulière pour évoluer en sécurité : alpage < 25°, route forestière."
+            },
+            {
+                "rating": "S2",
+                "description": "Pentes assez vastes, même un peu raides (25°), ou itinéraires vallonnés."
+            },
+            {
+                "rating": "S3",
+                "description": "Inclinaison des pentes jusqu'à 35° (pistes noires les plus raides des stations, en neige dure). L'évolution en toutes sortes de neige doit se pratiquer sans difficultés techniques."
+            },
+            {
+                "rating": "S4",
+                "description": "Inclinaison des pentes jusqu'à 45° si l'exposition n'est pas trop forte, à partir de 30° et jusqu'à 40° si l'exposition est forte ou le passage étroit. Une très bonne technique à ski devient indispensable."
+            },
+            {
+                "rating": "S5",
+                "description": "Inclinaison de 45 à 50° voire plus si l'exposition est faible. A partir de 40° si l'exposition est forte. En plus d'une technique parfaite, la maîtrise nerveuse devient importante."
+            },
+            {
+                "rating": "S6",
+                "description": "Au delà de 50° si l'exposition est forte, ce qui est le plus souvent le cas. Sinon à partir de 55° pour de courts passages peu exposés."
+            },
+            {
+                "rating": "S7",
+                "description": "Passages à 60° ou plus, ou saut de barres en terrain très raide ou exposé."
+            }
+        ]
+    },
+    "labande_global": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "The global grade offers an overall estimation of the difficulties of an itinerary and how sustained they are, as well as altitude and the normal duration of the itinerary. WARNING! The grade uses the same letter coding as the global alpine climbing grade but they do not overlap: A snow couloir can easily be graded D for skiing while it’s mountaineering grade would not exceed PD or AD.\nBE CAREFUL! It is a rating for ski touring, not for alpine climbing: a couloir can easily be rated D for ski touring, whatever its alpine global rating doesn't exceed PD ou AD for rising."
+            },
+            {
+                "rating": "F",
+                "description": "Easy"
+            },
+            {
+                "rating": "PD",
+                "description": "Slightly difficult"
+            },
+            {
+                "rating": "AD",
+                "description": "Somewhat difficult"
+            },
+            {
+                "rating": "D",
+                "description": "Difficult"
+            },
+            {
+                "rating": "TD",
+                "description": "Very difficult"
+            },
+            {
+                "rating": "ED",
+                "description": "Extremely difficult"
+            },
+            {
+                "rating": "ED4<",
+                "description": "ED+ can be defined as 'aboominable'..."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "La cotation Labande globale ski est une estimation du niveau général des difficultés rencontrées et de leur continuité. Elle tient également compte de l'altitude et de la durée d'une course.\nL'échelle, calquée sur celle de la cotation globale d'alpinisme, va de F (facile) à ED (extrèmement difficile). Le dernier degré est ouvert : ED- ou ED1, ED ou ED2, ED+ ou ED3, puis ED4, ED5, ED6, ED7...\nATTENTION ! Il s'agit ici d'une cotation pour le ski, et non pour l'alpinisme : un couloir peut facilement mériter un D pour le ski alors que sa cotation alpinisme, à la montée, ne dépasse pas PD ou AD."
+            },
+            {
+                "rating": "F",
+                "description": "Facile"
+            },
+            {
+                "rating": "PD",
+                "description": "Peu difficile"
+            },
+            {
+                "rating": "AD",
+                "description": "Assez difficile"
+            },
+            {
+                "rating": "D",
+                "description": "Difficile"
+            },
+            {
+                "rating": "TD",
+                "description": "Très difficile"
+            },
+            {
+                "rating": "ED",
+                "description": "Extrêmement difficile"
+            },
+            {
+                "rating": "ED4<",
+                "description": "Course plus dure que ED+, parfois défini comme 'abominable'…"
+            }
+        ]
+    },
+    "toponeige_technical": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "This is not a punctual rating: it depends on the length and configuration of the difficulties rather than the hardest section only.\nIt includes 5 levels. Each level is divided into 3: 4.1 = 4-, 4.2 = 4, 4.3 = 4+. The 5th level is open-ended: 5.4, 5.5, 5.6..."
+            },
+            {
+                "rating": "1.x",
+                "description": "Initiation. Slopes do not exceed 30° with no narrow sections. Vertical descent is less than 800m."
+            },
+            {
+                "rating": "2.x",
+                "description": "Few technical difficulties. Slopes do no exceed 35°. "
+            },
+            {
+                "rating": "3.x",
+                "description": "Some technical sections. Long slopes at 35° with very short sections at 40-45°."
+            },
+            {
+                "rating": "4.x",
+                "description": "Couloir or steep skiing : slopes between 40 and 45° over more than 200m vertical."
+            },
+            {
+                "rating": "5.x",
+                "description": "Starts with slopes of 45°-50° during more than 300m vertical or above 50° for more than 100m vertical."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "Ce n'est pas une cotation ponctuelle : elle dépend de la longueur et de la configuration des difficultés. Elle comprend 5 degrés. Chaque degré est divisé en 3 : 4.1 = 4-, 4.2 = 4, 4.3 = 4+. Le 5ème degré est ouvert sur le haut : 5.4, 5.5, 5.6..."
+            },
+            {
+                "rating": "1.x",
+                "description": "Niveau initiation. Les pentes n’excèdent pas 30°. Les passages ne sont pas trop étroits. Le dénivelé est inférieur à 800m."
+            },
+            {
+                "rating": "2.x",
+                "description": "Peu de difficultés techniques. Les pentes n’excèdent pas 35°."
+            },
+            {
+                "rating": "3.x",
+                "description": "Présence de passages techniques. Pentes longues à 35°, quelques passages très courts jusqu’à 40-45°."
+            },
+            {
+                "rating": "4.x",
+                "description": "Ski de couloir ou pente raide. Pentes à 40 ou 45° sur plus de 200m."
+            },
+            {
+                "rating": "5.x",
+                "description": "Pente à 45°/50° sur plus de 300m ou de plus de 50° sur 100m."
+            }
+        ]
+    },
+    "rock_exposition": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "The exposure grade does not take into account objective hazards (stone fall, seracs…) but only the consequences of a the skier falling."
+            },
+            {
+                "rating": "E1",
+                "description": "Exposure is limited to that of the slope itself. Getting hurt is still likely if the slope is steep and/or the snow is hard."
+            },
+            {
+                "rating": "E2",
+                "description": "As well as the slope itself, there are some obstacles (such as rock outcrops) which could aggravate injury."
+            },
+            {
+                "rating": "E3",
+                "description": "In case of a fall, death is highly likely."
+            },
+            {
+                "rating": "E4",
+                "description": "In case of a fall, the skier faces certain death."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "L'exposition décrit le risque de blessure en cas de chute, autre que la pente elle même : une faible exposition mais une forte pente ne garantit pas une chute sans conséquence."
+            },
+            {
+                "rating": "E1",
+                "description": "L’exposition est celle de la pente elle-même. Le risque de blessure est cependant important sur neige dure et/ou pente forte."
+            },
+            {
+                "rating": "E2",
+                "description": "A l'exposition de la pente s'ajoute des obstacles aggravant les blessures."
+            },
+            {
+                "rating": "E3",
+                "description": "En cas de chute, la mort est probable."
+            },
+            {
+                "rating": "E4",
+                "description": "En cas de chute, la mort est certaine."
+            }
+        ]
+    },
+    "toponeige_exposition": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "The exposure grade does not take into account objective hazards (stone fall, seracs…) but only the consequences of a the skier falling."
+            },
+            {
+                "rating": "E1",
+                "description": "Exposure is limited to that of the slope itself. Getting hurt is still likely if the slope is steep and/or the snow is hard."
+            },
+            {
+                "rating": "E2",
+                "description": "As well as the slope itself, there are some obstacles (such as rock outcrops) which could aggravate injury."
+            },
+            {
+                "rating": "E3",
+                "description": "In case of a fall, death is highly likely."
+            },
+            {
+                "rating": "E4",
+                "description": "In case of a fall, the skier faces certain death."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "L'exposition décrit le risque de blessure en cas de chute, autre que la pente elle même : une faible exposition mais une forte pente ne garantit pas une chute sans conséquence."
+            },
+            {
+                "rating": "E1",
+                "description": "L’exposition est celle de la pente elle-même. Le risque de blessure est cependant important sur neige dure et/ou pente forte."
+            },
+            {
+                "rating": "E2",
+                "description": "A l'exposition de la pente s'ajoute des obstacles aggravant les blessures."
+            },
+            {
+                "rating": "E3",
+                "description": "En cas de chute, la mort est probable."
+            },
+            {
+                "rating": "E4",
+                "description": "En cas de chute, la mort est certaine."
+            }
+        ]
+    },
+    "hiking": {
+        "en": [
+            {
+                "rating": "Description",
+                "description": "Rating of difficulties for a hiking route. The scale is inspired from that of the Swiss Alpine Club."
+            },
+            {
+                "rating": "T1",
+                "description": "Hiking - Footpath is well marked. Terrain is even and flat, or slightly sloped. There is no risk of falling.\nRequirements: None, you could also follow the itinerary in running shoes. Orientation is not a problem, usually even without a map."
+            },
+            {
+                "rating": "T2",
+                "description": "Mountain hiking - Parts of the path can lack markings. Terrain sometimes steep. Falls are not to be excluded.\nRequirements: Good footing. Hiking boots are recommended. Basic orientation know-how."
+            },
+            {
+                "rating": "T3",
+                "description": "Demanding mountain hiking - Path is sometimes invisible. Hands might be needed for balance. Some stretches might be exposed to stone fall or cross moderately steep scree or rocky slopes where exposed stretches might be equipped with ropes or chains.\nRequirements: very good footing. Good hiking boots. Average orientation capabilities. Basic experience in the mountains is advisable."
+            },
+            {
+                "rating": "T4",
+                "description": "Alpine hiking and scrambling - At times there is no path. Hands might be needed for overcoming certain difficulties. Terrain is somewhat exposed with delicate grassy slopes or slopes mixing rocks, easy nevés or glacier which are not snow covered (no crevasse danger).\nRequirements: Familiarity with exposure. Rigid soled hiking boots. Ability to evaluate terrain and good orientation capabilities. Alpine experience is advisable. In case of bad weather, retreat could be complicated. "
+            },
+            {
+                "rating": "T5",
+                "description": "Demanding alpine hiking and scrambling - There is often no path and some easy climbing. Terrain is exposed and demanding with steep slopes and rocks. Glaciers and nevés increase the risk of slipping and falling.\nRequirements: Mountaineering boots. Confident evaluation of terrain and very good orientation capabilities. A good experience of the high mountains and basic use of ice axe an rope are required."
+            },
+            {
+                "rating": "T6",
+                "description": "T6 grade was deleted. For routes that are graded over T5, you may use activities 'rock-climbing'/'alpine rock climbing' and the associated grades. See also help on the hiking grades."
+            }
+        ],
+        "fr": [
+            {
+                "rating": "Description",
+                "description": "Cotation des difficultés d'un itinéraire de randonnée pédestre. L'échelle est inspirée de celle du Club Alpin Suisse."
+            },
+            {
+                "rating": "T1",
+                "description": "Randonnée. Sentier bien tracé. Terrain plat ou en faible pente, pas de risques de chute.\nExigences : Aucune, convient aussi pour baskets. L'orientation ne pose pas de problèmes, en général possible même sans carte."
+            },
+            {
+                "rating": "T2",
+                "description": "Randonnée en montagne. Sentier avec tracé ininterrompu. Terrain parfois raide, risques de chute pas exclus\nExigences : Avoir le pied assez sûr. Chaussures de trekking recommandées. Capacités élémentaires d'orientation."
+            },
+            {
+                "rating": "T3",
+                "description": "Randonnée en montagne exigeante. Sentier pas forcément visible partout. Les passages exposés peuvent être équipés de cordes ou de chaînes. L'utilisation des mains peut être nécessaire pour l'équilibre. Quelques passages exposés avec risques de chute, pierriers, pentes mêlées de rochers sans trace.\nExigences : Avoir le pied très sûr. Bonnes chaussures de trekking. Capacités d'orientation dans la moyenne. Expérience élémentaire de la montagne souhaitable."
+            },
+            {
+                "rating": "T4",
+                "description": "Randonnée alpine. Traces parfois manquantes. L'aide des mains est quelquefois nécessaire pour la progression. Terrain déjà assez exposé, pentes herbeuses délicates, pentes mêlées de rochers, névés faciles et passages sur glacier non recouverts de neige.\nExigences : Etre familier du terrain exposé. Chaussures de trekking rigides. Une certaine capacité d'évaluation du terrain et une bonne capacité d'orientation. Expérience alpine. En cas de mauvais temps le repli peut s'avérer difficile."
+            },
+            {
+                "rating": "T5",
+                "description": "Randonnée alpine exigeante. Souvent sans traces. Quelques passages d'escalade faciles (cotation 2 maximum, ponctuellement jusqu'à 3c si le pas est très court et la chute sans conséquence). Terrain exposé, exigeant, pentes raides mêlées de rochers. Petits Glaciers et névés, non crevassés, pouvant nécessiter l'usage de crampons mais ne nécessitant pas, habituellement, le matériel d'encordement. Le matériel et les techniques d'alpinismes peuvent être employés occasionnellement pour un passage ponctuel mais pas comme un moyen de progression continu.\nExigences : Chaussures de montagne. Évaluation sûre du terrain et très bonnes capacités d'orientation. Bonne expérience de la haute montagne et connaissances élémentaires du maniement du piolet et de la corde."
+            },
+            {
+                "rating": "T6",
+                "description": "La cotation T6 a été supprimée. Pour les itinéraire plus difficiles que T5, utiliser l'activité 'escalade' ou 'rocher haute montagne', ainsi que les cotations associées."
+            }
+        ]
+    },
+    "snowshoeing": {
+        "en": [
+            {
+                "rating": "R1",
+                "description": "Light slope, clear directions"
+            },
+            {
+                "rating": "R2",
+                "description": "Light Slopes, max 20°. No directions"
+            },
+            {
+                "rating": "R3 & 4",
+                "description": "Slope medieum to high steepness"
+            }
+        ],
+        "fr": [
+            {
+                "rating": "R1",
+                "description": "Pentes faibles et balisage serré\nExigences : Aucune, convient pour les raquettes non-techniques."
+            },
+            {
+                "rating": "R2",
+                "description": "Pentes faibles et pas de balisage\nItinéraire sur pentes faibles (maximum vers 20°) ne nécessitant pas de progresser en lacets ni de faire de traversée sur flancs raides.\nExigences : avoir le pied assez sûr. Convient pour les raquettes non-techniques. Bonnes capacités d'orientation."
+            },
+            {
+                "rating": "R3 & 4",
+                "description": "Pentes modérées à fortes\nItinéraire sur pentes exigeantes nécessitant de progresser en lacets ou de traverser des flancs raides. Certains passages peuvent nécessiter de déchausser ou d'utiliser des couteaux en neige dure.\nExigences : avoir le pied sûr. Raquettes techniques nécessaires. Bonnes capacités d'orientation. Bonne expérience de la montagne."
+            }
+        ]
+    }
+}
